@@ -1,0 +1,27 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "content_scripts": [ {
+      "js": [ "connect.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'; style-src * 'unsafe-inline'; img-src 'self' data:;",
+   "description": "Better experience for debug your react stores with chrome devtools extension",
+   "devtools_page": "main.html",
+   "icons": {
+      "128": "img/128x128.png",
+      "16": "img/16x16.png",
+      "48": "img/48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiC4uH5euQoZHus/XhMgQH5MqU1e5cBwcn9KFjPCYhqYjud075cQX0YR8EAU47GVRvYuCGiw5GiS7BKG1MsT42WO7IDP5Lqt/fbYoGPrN9QIoP32tIdItpEvq9qxYYBMkg512qG3Vv4B1yMrfz6yjuwxowtaFUR8e8F7PQb6ocuTJ0PM+OSwRDDQuol2HG2XnJB28yodSayzCj6uao/qIMHX75LliXls/BiDPyJL0qCRiXCqAyRGsNI28GwbfrJmMGnKIZYEbAMJZk3qrozuYyEZ0WXpx1bmfLP47aFw84qi2hoXWUEMY/h7q/ERMcklOudvn2jgyeshB6OlDsNtHLQIDAQAB",
+   "manifest_version": 2,
+   "name": "React Stores Devtools Extension",
+   "permissions": [ "http://*/*", "https://*/*" ],
+   "short_name": "React Stores Inspector",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.0",
+   "web_accessible_resources": [ "inject.js", "connect.js" ]
+}

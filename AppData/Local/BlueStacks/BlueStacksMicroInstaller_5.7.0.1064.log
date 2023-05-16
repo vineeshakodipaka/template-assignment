@@ -1,0 +1,38 @@
+﻿2022-04-27 19:56:46.128 16248:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2022-04-27 19:56:46.128 16248:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2022-04-27 19:56:46.128 16248:00000001 (BlueStacksInstaller) INFO: Finding closest locale match to en-IN
+2022-04-27 19:56:46.128 16248:00000001 (BlueStacksInstaller) INFO: Match found by ISO language name: en-US
+2022-04-27 19:56:50.337 16248:00000001 (BlueStacksInstaller) INFO: UserCountry resp: {"country": "IN", "latlong": "17.385044,78.486671"}
+2022-04-27 19:56:50.376 16248:00000001 (BlueStacksInstaller) INFO: Launching C:\Users\VINEESHA\AppData\Local\Temp\7zS84EA3C12\:BlueStacksInstaller.exe "BlueStacksInstaller_5.7.0.1064_native_f09a883bcd6b779ee44c6f398a996a16_0_R29vZ2xlIE1lZXQ= (2).exe"
+2022-04-27 19:56:50.456 20380:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2022-04-27 19:56:50.461 20380:00000001 (BlueStacksInstaller) INFO: Successfully populated en-US strings
+2022-04-27 19:56:50.464 20380:00000001 (BlueStacksInstaller) INFO: Finding closest locale match to en-IN
+2022-04-27 19:56:50.464 20380:00000001 (BlueStacksInstaller) INFO: Match found by ISO language name: en-US
+2022-04-27 19:56:51.265 20380:00000001 (BlueStacksInstaller) INFO: UserCountry resp: {"country": "IN", "latlong": "17.385044,78.486671"}
+2022-04-27 19:56:51.302 20380:00000001 (BlueStacksInstaller) INFO: Launching C:\Users\VINEESHA\AppData\Local\Temp\7zS0D0CA703\:BlueStacksInstaller.exe "BlueStacksInstaller_5.7.0.1064_native_f09a883bcd6b779ee44c6f398a996a16_0_R29vZ2xlIE1lZXQ= (2).exe"
+2022-04-27 19:57:00.217 16248:00000001 (BlueStacksInstaller) ERROR: Couldnt start MI as admin. Ex: System.ComponentModel.Win32Exception (0x80004005): The operation was canceled by the user
+   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at BlueStacks.MicroInstaller.App.RunAdminInstallerAndExit()
+2022-04-27 19:57:04.679 20380:00000001 (BlueStacksInstaller) ERROR: Couldnt start MI as admin. Ex: System.ComponentModel.Win32Exception (0x80004005): The operation was canceled by the user
+   at System.Diagnostics.Process.StartWithShellExecuteEx(ProcessStartInfo startInfo)
+   at BlueStacks.MicroInstaller.App.RunAdminInstallerAndExit()
+2022-04-27 19:57:27.277 20380:00000001 (BlueStacksInstaller) INFO: Parent FileName: BlueStacksInstaller_5.7.0.1064_native_f09a883bcd6b779ee44c6f398a996a16_0_R29vZ2xlIE1lZXQ= (2).exe
+2022-04-27 19:57:27.277 20380:00000001 (BlueStacksInstaller) WARNING: Filename had spaces, using the part before the space
+2022-04-27 19:57:27.277 20380:00000001 (BlueStacksInstaller) INFO: Parsing: f09a883bcd6b779ee44c6f398a996a16_0_R29vZ2xlIE1lZXQ=
+2022-04-27 19:57:27.277 20380:00000001 (BlueStacksInstaller) INFO: Updating DefaultImageName to Nougat32
+2022-04-27 19:57:27.277 20380:00000001 (BlueStacksInstaller) INFO: Updating ImageToLaunch to Nougat32
+2022-04-27 19:57:27.277 20380:00000001 (BlueStacksInstaller) INFO: Campaign: f09a883bcd6b779ee44c6f398a996a16, AppName: R29vZ2xlIE1lZXQ=, Image: Nougat32
+2022-04-27 19:57:27.295 20380:00000001 (BlueStacksInstaller) WARNING: Failed to set registry value at Software\BlueStacksInstaller for MachineID:8fa77310-d604-40e2-b850-439f707cc506
+2022-04-27 19:57:27.300 20380:00000001 (BlueStacksInstaller) WARNING: Failed to set registry value at Software\BlueStacksInstaller for VersionMachineId_5.7.0.1064:d7826597-822d-4e96-bd87-42beb0e2593e
+2022-04-27 19:57:27.699 20380:00000001 (BlueStacksInstaller) INFO: Uploading C:\Users\VINEESHA\AppData\Local\BlueStacks\BlueStacksMicroInstaller_5.7.0.1064.log to https://cloud.bluestacks.com/_ah/upload/AMmfu6Z9_LMQUohTIKw1RIGZHtvtaxjGpB9uTAINXytGM6UCYqEU2CxYomk_3Yu-5FssmQgsgAqp7zaBrYDDz_JhLGIsN-PPyE65xR4guwSbZT4VeGVB_XMLC2Xv-0ksPkaW9gB29RzoMFoi8faB8QVy-g1AyCGTnABE8cinKgs6jEcOGeTCjJM/ALBNUaYAAAAAYmlVJqJLktFxQgPjtHp3WkU0k_mwGeQD/
+2022-04-27 19:57:30.030 20380:00000001 (BlueStacksInstaller) INFO: File uploaded, server response is: 
+2022-04-27 19:57:30.030 20380:00000001 (BlueStacksInstaller) INFO: ExitApplication 6
+2022-04-27 19:57:54.782 16248:00000001 (BlueStacksInstaller) INFO: Parent FileName: BlueStacksInstaller_5.7.0.1064_native_f09a883bcd6b779ee44c6f398a996a16_0_R29vZ2xlIE1lZXQ= (2).exe
+2022-04-27 19:57:54.790 16248:00000001 (BlueStacksInstaller) WARNING: Filename had spaces, using the part before the space
+2022-04-27 19:57:54.790 16248:00000001 (BlueStacksInstaller) INFO: Parsing: f09a883bcd6b779ee44c6f398a996a16_0_R29vZ2xlIE1lZXQ=
+2022-04-27 19:57:54.790 16248:00000001 (BlueStacksInstaller) INFO: Updating DefaultImageName to Nougat32
+2022-04-27 19:57:54.790 16248:00000001 (BlueStacksInstaller) INFO: Updating ImageToLaunch to Nougat32
+2022-04-27 19:57:54.790 16248:00000001 (BlueStacksInstaller) INFO: Campaign: f09a883bcd6b779ee44c6f398a996a16, AppName: R29vZ2xlIE1lZXQ=, Image: Nougat32
+2022-04-27 19:57:57.424 16248:00000001 (BlueStacksInstaller) INFO: Uploading C:\Users\VINEESHA\AppData\Local\BlueStacks\BlueStacksMicroInstaller_5.7.0.1064.log to https://cloud.bluestacks.com/_ah/upload/AMmfu6buvhyYhH_HNonUJh--ucB_ADZ1GADQJqu8NGa99C69tc4npF1HjvkfSSWzuVC7muptstt9X0Rz7iLFb4lsmo3TJFyLBo7XZXIMPyJKLuNRFZYMcVZkqas-hMmhZ_4GZ883wfQRYFBX6ojV51t2Uxb5iBYL3BQPDgMAti9ZUwm7bthD1mY/ALBNUaYAAAAAYmlVQerZSKKbIjYOYoTMyWEcZNHOg_AF/
+2022-04-27 19:57:59.518 16248:00000001 (BlueStacksInstaller) INFO: File uploaded, server response is: 
+2022-04-27 19:57:59.519 16248:00000001 (BlueStacksInstaller) INFO: ExitApplication 6
